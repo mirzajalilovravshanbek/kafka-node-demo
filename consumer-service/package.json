@@ -1,0 +1,8 @@
+{
+  "name": "consumer-service",
+  "version": "1.0.0",
+  "main": "consumer-service.js",
+  "dependencies": {
+    "kafkajs": "^2.0.0"
+  }
+}

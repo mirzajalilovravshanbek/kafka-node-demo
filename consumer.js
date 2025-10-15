@@ -5,7 +5,11 @@ const kafka = new Kafka({
   brokers: ['localhost:9092'],
 });
 
-const consumer = kafka.consumer({ groupId: 'test-group' });
+const consumer = kafka.consumer({ 
+  groupId: 'test-group', 
+  allowAutoTopicCreation: true,
+  fromBeginning: true  // 🔥 bu eski xabarlarni ham o‘qiydi
+});
 
 const run = async () => {
   await consumer.connect();
