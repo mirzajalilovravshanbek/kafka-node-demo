@@ -108,7 +108,7 @@ docker system prune -f
 ## 🧑‍💻 Muallif
 
 **Ravshanbek Mirzajalilov**  
-📧 [mirzajalilovravshanbek@gmail.com]  
+📧 mirzajalilovravshanbek@gmail.com  
 🌐 [github.com/mirzajalilovravshanbek](https://github.com/mirzajalilovravshanbek)
 
 ---
